@@ -1,6 +1,8 @@
 <template>
     <div class="grid place-items-center h-screen bg-slate-300">
+     <div class="container mx-auto">
       <Table :data="tableData" :columns="columns" />
+     </div>
     </div>
   </template>
   
