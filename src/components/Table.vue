@@ -22,7 +22,7 @@
             <!-- Action -->
             <template v-else-if="column.key === 'action'">
               <div class="divide-x divide-gray-300 space-x-2">
-                <button class="px-4 py-1 hover:bg-zinc-300 hover:rounded">Invite</button>
+                <button class="px-4 py-1 hover:bg-zinc-300 hover:rounded">Invite - {{ row.name }}</button>
                 <button class="px-4 py-1 hover:bg-zinc-300 hover:rounded">Delete</button>
                 <button class="px-4 py-1 hover:bg-zinc-300 hover:rounded">More actions</button>
               </div>
